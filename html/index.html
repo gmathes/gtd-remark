@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GTD</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+      }
+    figure figcaption {
+        border: 1px ;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle, inverse
+
+# Getting Things Done
+[and inbox zero]
+
+---
+
+class: center, middle, inverse
+## What is GTD and why would it help me?
+
+---
+layout: false
+.left-column[
+  ## What is it?
+]
+.right-column[
+<figure>
+    <img src='book.png' />
+      <font size="12">
+        <figcaption> 
+        </figcaption>
+      </font>
+</figure>
+]
+
+---
+layout: false
+.left-column[
+  ## What is it?
+]
+.right-column[
+
+- Time Management Method
+
+- Framework to move tasks, reminders, and projects out of the mind
+
+- Trusted System
+
+- Use your brain for doing - not remembering
+
+- RAM/SWAP Example
+<br>
+<br>
+<figure>
+    <img src='swap-NEW.jpg' />
+      <font size="4">
+        <figcaption>
+        thrashing 
+        </figcaption>
+      </font>
+</figure>
+]
+
+---
+layout: false
+.left-column[
+  ## What is it?
+  ## Why would you use it?
+]
+.right-column[
+
+ It’s allows for appropriate engagement, giving full attention to whatever you're doing—whether it’s working while at home, or weekends without having to think about work:
+
+- This is not just corporate BS
+
+- Helps you focus on what's really important to you
+
+- Gives you freedom to prioritize work how you want
+
+- Balance time
+
+[10 Benefits of GTD](<https://facilethings.com/blog/en/benefits>)
+
+]
+
+---
+layout: false
+.left-column[
+  ## What is it?
+  ## Why would you use it?
+  ## Why do I try to use it?
+]
+.right-column[
+
+- First job relied on my mind + inbox
+
+- More and more meetings and phone calls
+ - forgetting + spinning wheels
+
+- Improved my focus and helped me reach goals
+
+- Without it, still stuck in survival mode
+
+]
+
+---
+layout: false
+.left-column[
+  ## What is it?
+  ## Why would you use it?
+  ## Why do I try to use it?
+  ## Disclaimer
+]
+.right-column[
+
+- Everyone has their own system, you may already love yours
+
+- Still trying to improve my own system
+
+- OneNote vs paper vs todoist etc
+ - tool agnostic
+
+]
+
+---
+
+class: center, middle, inverse
+## What is the secret sauce?
+
+--
+
+[five simple steps]
+
+---
+# [Workflow Map](http://dev.gavinmathes.com:8080/gtd-workflow-map.png)
+
+<img src='gtd-workflow-map.png' align="middle" style="width: 600px;"/>
+
+---
+
+layout: false
+.left-column[
+  ## Collect
+]
+.right-column[
+
+<figure>
+    <img src='Five-Steps_Collect_text.jpg'/>
+      <font size="6">
+        <figcaption>
+        </figcaption>
+      </font>
+</figure>
+
+]
+
+--
+
+Where do we get stuff to capture?
+
+--
+
+JIRA, UTS, Emails, Project Meetings, Huddles, Skype, Calls
+
+
+---
+
+layout: false
+.left-column[
+  ## Collect
+  ## Process
+]
+.right-column[
+
+<figure>
+    <img src='5Steps_Clarify_20140531.jpg'/>
+      <font size="6">
+        <figcaption>
+        </figcaption>
+      </font>
+</figure>
+
+]
+
+---
+
+layout: false
+.left-column[
+  ## Collect
+  ## Process
+  ## Organize
+]
+.right-column[
+
+<figure>
+    <img src='Five-Steps_Organize_New.jpg'/>
+      <font size="6">
+        <figcaption>
+        </figcaption>
+      </font>
+</figure>
+
+]
+
+---
+layout: false
+.left-column[
+  ## Collect
+  ## Process
+  ## Organize
+  ## Review
+]
+.right-column[
+
+<figure>
+    <img src='Five-Steps_Review_text.jpg'/>
+      <font size="6">
+        <figcaption>
+        </figcaption>
+      </font>
+</figure>
+
+]
+---
+layout: false
+.left-column[
+  ## Collect
+  ## Process
+  ## Organize
+  ## Review
+  ## Do
+]
+.right-column[
+
+<figure>
+    <img src='Five-Steps_Engage_text-1.jpg'/>
+      <font size="6">
+        <figcaption>
+        </figcaption>
+      </font>
+</figure>
+
+]
+
+---
+
+class: center, middle, inverse
+## outlook--
+
+---
+# Inbox Zero
+<br>
+<br>
+<br>
+<br>
+--
+<figure>
+    <img src='inboxzero1.png' />
+      <font size="6">
+        <figcaption> Let's spend less time in Outlook
+        </figcaption>
+      </font>
+</figure>
+--
+<br>
+<br>
+"Just remember that every email you read, re-read, and re-re-re-re-re-read as it sits in that big dumb pile is actually incurring mental debt on your behalf. The interest you pay on email you're reluctant to deal with is compounded every day and, in all likelihood, its whats led you to feeling far behind." - Merlin Mann
+---
+# Inbox Zero
+<figure>
+    <img src='inboxflow.png' />
+      <font size="6">
+        <figcaption> 
+        </figcaption>
+      </font>
+</figure>
+---
+# Inbox Zero
+
+--
+
+- Does not mean you monitor your email all day, some recommendations are 2x per day
+
+--
+
+- Use categories, not folders
+
+--
+
+- Only have an inbox and an archive
+
+--
+
+- Search folders
+
+--
+
+- Use quick actions
+
+--
+
+- Defer => Trusted System
+
+--
+
+# DEMO
+
+---
+
+# Resources
+
+[Solid Youtube Explanation](https://www.youtube.com/watch?v=gCswMsONkwY)
+
+[Massive GTD Resource](https://zenhabits.net/massive-gtd-resource-list/)
+
+[Lifehacker Primer](https://lifehacker.com/productivity-101-a-primer-to-the-getting-things-done-1551880955)
+
+[OneNote Tips](https://www.bettercloud.com/monitor/the-academy/10-tips-tricks-that-will-make-you-a-onenote-ninja/)
+
+---
+
+# Examples to share?
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
